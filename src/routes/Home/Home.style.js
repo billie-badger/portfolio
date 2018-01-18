@@ -72,7 +72,7 @@ export const RevealP = styled.p`
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #212121;
+        background-color: #282828;
       
 
         transform-origin: right;

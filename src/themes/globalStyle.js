@@ -9,7 +9,7 @@ injectGlobal`
         font-size: 26px;
         color: white;
         fonst-weight: bold;
-        background-color: #212121;
+        background-color: #282828;
         padding: 0;
         margin: 0;
     }

@@ -6,20 +6,7 @@ import {
         } from '../Projects/Projects.style';
 
 import {H1, H2} from '../../themes/types';
-
-let projectData = {
-  projects: [
-    {
-      name: 'Fiber Optic Fabrics',
-      desc: 'React Single Page Application built to provide product and contact information for Fiber Optic Fabrics.'
-    },
-    {
-      name: 'Vatcher News',
-      desc: 'Vue Single Page Application that displays the most recent posts from various news sources.'
-    }
-  ]
-}
-
+import {ProjectImage} from '../Projects/Projects.style';
 
 
 class Projects extends Component {
@@ -30,11 +17,8 @@ class Projects extends Component {
         
         <ProjectH1>Projects!</ProjectH1>
         <H2>Modern Sites</H2>
+        <ProjectImage />
           <ul>
-            <li>Fiber Optic Fabrics</li>
-            {
-
-            }
             <li>Vatcher Woodworks</li>
             <li>DJ Robert Romo</li>
             <li>Vatcher News</li>
