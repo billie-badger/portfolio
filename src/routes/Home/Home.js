@@ -15,7 +15,7 @@ class Home extends Component {
         return (
             <Container>
                <HeroImage>
-                    <h3>Front-end developer</h3>
+                    <h3>Front-end Developer</h3>
                     <ScrollIndicator/>    
                 </HeroImage>
                 <WhenInView>

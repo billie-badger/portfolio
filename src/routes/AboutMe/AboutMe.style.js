@@ -1,7 +1,6 @@
 import styled  from 'styled-components';
 import {Relative, Flex} from '../../themes/grid';
 import PlayButton from '../../components/PlayButton/PlayButton';
-import {coolGreen} from '../../themes/variables';
 import media from '../../themes/media';
 import { H1 } from '../../themes/types';
 
