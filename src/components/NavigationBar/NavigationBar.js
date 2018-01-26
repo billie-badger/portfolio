@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavigationContainer, NavItem} from './NavigationBar.style';
+import {NavigationContainer, NavItem, } from './NavigationBar.style';
 
 
 class NavigationBar extends Component {
@@ -11,6 +11,7 @@ class NavigationBar extends Component {
                 <NavItem to='/aboutme'>About Me</NavItem>
                 
             </NavigationContainer>
+        
         );
     }
 }

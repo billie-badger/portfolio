@@ -14,7 +14,7 @@ class Home extends Component {
     render() {
         return (
             <Container>
-               <HeroImage>
+                <HeroImage>
                     <h3>Front-end Developer</h3>
                     <ScrollIndicator/>    
                 </HeroImage>

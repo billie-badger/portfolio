@@ -1,17 +1,19 @@
 import styled, { css } from 'styled-components';
-import { coolGreen } from '../../themes/variables';
 import media from '../../themes/media';
 
 
 export const HeroImage = styled.div`
 
-    height: 110vh;
+    height: 100vh;
     background-image: url('${require('../../assets/80s_2.png')}');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 40px;
-    margin-top: 0;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.5);
+    
 
     display: flex;
     flex-direction: column;
@@ -38,11 +40,24 @@ export const HeroImage = styled.div`
        `}
     }
 
+    ${media.desktop`
+        background-image: url('${require('../../assets/80s_2.png')}');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    `}
+
     ${media.tablet`
         background-image: url('${require('../../assets/80s_2.png')}');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
     `}
 
     ${media.phone`

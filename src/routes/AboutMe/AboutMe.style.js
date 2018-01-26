@@ -2,21 +2,9 @@ import styled  from 'styled-components';
 import {Relative, Flex} from '../../themes/grid';
 import PlayButton from '../../components/PlayButton/PlayButton';
 import media from '../../themes/media';
-import { H1 } from '../../themes/types';
+import { H1, H2 } from '../../themes/types';
 
 
-
-export const VideoContainer = styled(Relative)`
-    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.4);
-    width: 50vw;
- 
-    ${media.tablet`
-        width: 100%;
-    `}
-    flex-shrink: 0;
-    flex-grow: 0;
-    cursor: pointer;
-`;
 
 export const StyledPlayButton = styled(PlayButton)`
     position: absolute;
@@ -33,29 +21,53 @@ export const PContainer = styled(Relative)`
 `;
 
 export const KarateSection = styled(Flex)`
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 70px;
-    ${media.tablet`
+    margin: 5em;
+    margin-top: 4em;
+    
+    ${media.desktop`
         flex-direction: column;
+        align-items: center;
         margin-left: 15px;
         margin-right: 15px;
     `}
 `;
 
 export const AboutMeH1 = styled(H1)`
-    margin-top: 15vh;
-    margin-left: 6.5vw;
+    position: relative;
+    margin: 0 auto;
+    top: 1.5em;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: magenta;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 `;
 
 export const GuitarSection = styled(Flex)`
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 80px;
-    ${media.tablet`
+    margin: 5em;
+    margin-top: 4em;
+    ${media.desktop`
         flex-direction: column;
+        align-items: center;
         margin-left: 15px;
         margin-right: 15px;
     `}
 `;
+
+export const AboutMeH2 = styled(H2)`
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3em;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: cyan;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+`;
+
+
 

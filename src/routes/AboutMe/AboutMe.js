@@ -4,11 +4,11 @@ import {Container} from '../../themes/grid';
 import {H1, H2, H3, H4, H5, H6, Blockquote} from '../../themes/types';
 import {
         StyledPlayButton, 
-        VideoContainer,
         PContainer, 
         KarateSection,
         GuitarSection, 
-        AboutMeH1} from '../../routes/AboutMe/AboutMe.style';
+        AboutMeH1,
+        AboutMeH2} from '../../routes/AboutMe/AboutMe.style';
 
 
 
@@ -16,8 +16,8 @@ class AboutMe extends Component {
     render() {
         return (
             <Container>
-                <AboutMeH1 align='left'>Who is Will?</AboutMeH1>
-                <H2 align='center'>A Karate Master??</H2>
+                <AboutMeH1>Who is Will?</AboutMeH1>
+                <AboutMeH2>A Karate Master??</AboutMeH2>
                 <KarateSection>
                     <PContainer>
                         <H4 align="left">
@@ -27,17 +27,17 @@ class AboutMe extends Component {
                         Here is a rare video of me performing the kata Nijushiho at a black belt ceremony...</H5>
                     </PContainer>
                     <ReactPlayer 
-                        loop
+                        //loop
                         controls
                             //playing
                         
                         
                         url='https://www.youtube.com/watch?v=9tjVHk7mTLE&t=3s'/>
                     </KarateSection>
-                <H2 align='center'>Jimi Hendrix Incarnate??</H2>
+                <AboutMeH2>Jimi Hendrix Incarnate??</AboutMeH2>
                 <GuitarSection>
                     <ReactPlayer 
-                        loop
+                        //loop
                         controls
                             //playing
                         

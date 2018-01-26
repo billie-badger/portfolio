@@ -7,10 +7,9 @@ export const NavigationContainer = styled(Flex)`
     position: fixed;
     top:0;
     line-height: 80px;
-    background-color: #212121;
     width: 100%;
     z-index: 999;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+
 
 
 
@@ -62,3 +61,4 @@ export const NavItem = styled(Link)`
     `}
     
 `;
+

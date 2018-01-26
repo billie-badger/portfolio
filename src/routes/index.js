@@ -17,6 +17,7 @@ import {
 import NavigationBar from '../components/NavigationBar/NavigationBar';
 import ReallySmoothScroll from 'really-smooth-scroll';
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
+import SocialBar from '../components/SocialBar/SocialBar';
 
 ReallySmoothScroll.shim();
 
@@ -31,6 +32,7 @@ class Routes extends Component {
                         <MagBrushStroke />
                         <CyanBrushStroke />
                         <NavigationBar />
+                        <SocialBar />
                         <Switch>
                             <Route path='/' exact component={Home} />
                             <Route path='/projects' exact component={Projects} />
@@ -44,3 +46,4 @@ class Routes extends Component {
 }
 
 export default Routes;
+

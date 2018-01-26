@@ -31,6 +31,7 @@ export const AngryBackground = styled.div`
     z-index: -995;
 `;
 
+
 export const MagBrushStroke = styled.div`
     position:fixed;
     right: 40vw;
