@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import {Container} from '../../themes/grid';
 import { H1 } from '../../themes/types';
 import media from '../../themes/media';
@@ -28,6 +28,40 @@ export const ProjectH1 = styled(H1)`
         top: 1em;
     `}
 `;
+
+// export const RevealPanel = styled.p`
+//     position: relative;
+//     margin-top:40px;
+//     margin-left:20vw;
+//     margin-right:20vw;
+//     margin-bottom: 40px;
+//     &:after {
+//         content: ' ';
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         background-color: #282828;
+      
+
+//         transform-origin: right;
+//         transform: rotateY(90deg);
+
+//         transition: transform 1s;
+//     }
+
+//     ${({ hide }) => hide && css`
+//         &:after {
+//             transform: rotateY(0deg);
+//         }
+//     `}
+
+//     ${media.tablet`
+//         margin-left: 5vw;
+//         margin-right: 5vw;
+//     `}
+// `;
 
 export const Project1 = styled.div`
 
