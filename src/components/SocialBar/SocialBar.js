@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SocialContainer, Github, Linkedin } from './SocialBar.style';
+import { SocialContainer, Github, Linkedin, Resume } from './SocialBar.style';
 
 
 class SocialBar extends Component {
@@ -7,7 +7,8 @@ class SocialBar extends Component {
         return (
             <SocialContainer>
                 <a href='https://github.com/billie-badger' target='_blank'><Github /></a>
-                <Linkedin></Linkedin>
+                <a href='https://www.linkedin.com/in/will-vatcher-9705b340/' target='_blank'><Linkedin /></a>
+                <a href ='https://github.com/billie-badger/Resume/blob/master/Will_Vatcher.pdf' target='_blank'><Resume /></a>
             </SocialContainer>
         );
     }

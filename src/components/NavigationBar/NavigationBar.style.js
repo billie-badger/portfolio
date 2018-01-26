@@ -8,7 +8,7 @@ export const NavigationContainer = styled(Flex)`
     top:0;
     line-height: 80px;
     width: 100%;
-    z-index: 999;
+    z-index: 700;
 
 
 

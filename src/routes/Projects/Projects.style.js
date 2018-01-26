@@ -38,7 +38,7 @@ export const Project1 = styled.div`
     background-size: cover;
     background-position: center;
     margin: 1em;
-    margin-top: 4em;
+    margin-top: 3em;
     box-shadow: 5px 5px 25px 5px rgba(0,0,0,0.5);
 
     display: flex;
