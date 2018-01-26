@@ -26,27 +26,22 @@ class AboutMe extends Component {
                         <H5 align="right">
                         Here is a rare video of me performing the kata Nijushiho at a black belt ceremony...</H5>
                     </PContainer>
-                    <VideoContainer>
-                        <ReactPlayer 
-                            loop
-                            controls
-                                //playing
-                            height="100%"
-                            width="100%"
-                            url='https://www.youtube.com/watch?v=9tjVHk7mTLE&t=3s'/>
-                    </VideoContainer>
-                </KarateSection>
+                    <ReactPlayer 
+                        loop
+                        controls
+                            //playing
+                        
+                        
+                        url='https://www.youtube.com/watch?v=9tjVHk7mTLE&t=3s'/>
+                    </KarateSection>
                 <H2 align='center'>Jimi Hendrix Incarnate??</H2>
                 <GuitarSection>
-                    <VideoContainer>
-                        <ReactPlayer 
-                            loop
-                            controls
-                                //playing
-                            height="auto"
-                            width="100%"
-                            url='https://www.youtube.com/watch?v=x9DzGc9fznU'/>
-                    </VideoContainer>
+                    <ReactPlayer 
+                        loop
+                        controls
+                            //playing
+                        
+                        url='https://www.youtube.com/watch?v=x9DzGc9fznU'/>
                     <PContainer>
                         <H4 align="left">
                         Wrong again. But I love to play music! Piano, guitar, harmonica, any instrument I can get my hands on.

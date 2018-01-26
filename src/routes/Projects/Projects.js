@@ -6,7 +6,9 @@ import {
         } from '../Projects/Projects.style';
 
 import {H1, H2} from '../../themes/types';
-import {ProjectImage} from '../Projects/Projects.style';
+import {Project1,
+        Project2,
+        } from '../Projects/Projects.style';
 
 
 class Projects extends Component {
@@ -17,7 +19,8 @@ class Projects extends Component {
         
         <ProjectH1>Projects!</ProjectH1>
         <H2>Modern Sites</H2>
-        <ProjectImage />
+        <Project1 />
+        <Project2 />
           <ul>
             <li>Vatcher Woodworks</li>
             <li>DJ Robert Romo</li>
