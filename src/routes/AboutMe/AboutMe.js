@@ -30,7 +30,7 @@ class AboutMe extends Component {
                         //loop
                         controls
                             //playing
-                        
+                        width='50%'
                         
                         url='https://www.youtube.com/watch?v=9tjVHk7mTLE&t=3s'/>
                     </KarateSection>
@@ -40,6 +40,7 @@ class AboutMe extends Component {
                         //loop
                         controls
                             //playing
+                        width='50%'
                         
                         url='https://www.youtube.com/watch?v=x9DzGc9fznU'/>
                     <PContainer>
