@@ -6,6 +6,7 @@ import media from '../../themes/media';
 
 export const ProjectsContainer = styled(Container)`
     margin-left: 6.5vw;
+    
 `;
 
 export const ProjectH1 = styled(H1)`
@@ -19,6 +20,7 @@ export const ProjectH1 = styled(H1)`
     color: magenta;
     text-decoration: none;
     text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    
 
     ${media.tablet`
         top: 1em;
@@ -381,10 +383,10 @@ export const Project5 = styled.div`
 `;
 
 export const Project6 = styled.div`
-
+    top: 1em;
     height: 100vh;
     width: 90%;
-    background-image: url('${require('../../assets/Projects/california-gardens.png')}');
+    background-image: url('${require('../../assets/Projects/finality-labs.png')}');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
